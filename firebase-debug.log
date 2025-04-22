@@ -1,0 +1,23 @@
+[debug] [2025-04-22T08:42:02.373Z] ----------------------------------------------------------------------
+[debug] [2025-04-22T08:42:02.375Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo-User\Desktop\Firebase_Demo\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-22T08:42:02.376Z] CLI Version:   14.2.0
+[debug] [2025-04-22T08:42:02.376Z] Platform:      win32
+[debug] [2025-04-22T08:42:02.376Z] Node Version:  v20.17.0
+[debug] [2025-04-22T08:42:02.376Z] Time:          Tue Apr 22 2025 15:42:02 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-22T08:42:02.376Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-22T08:42:02.594Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-22T08:42:02.594Z] > authorizing via signed-in user (6733046221@student.chula.ac.th)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-22T08:42:02.607Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-22T08:42:02.608Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-22T08:42:02.608Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":9999}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-22T08:42:02.612Z] [hub] writing locator at C:\Users\LENOVO~1\AppData\Local\Temp\hub-github-action-6e77a.json
+[debug] [2025-04-22T08:42:02.628Z] Checked if tokens are valid: true, expires at: 1745312903945
+[debug] [2025-04-22T08:42:02.628Z] Checked if tokens are valid: true, expires at: 1745312903945
+[debug] [2025-04-22T08:42:02.630Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/github-action-6e77a/sites 
+[debug] [2025-04-22T08:42:03.436Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/github-action-6e77a/sites 200
+[debug] [2025-04-22T08:42:03.436Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/github-action-6e77a/sites {"sites":[{"name":"projects/github-action-6e77a/sites/github-action-6e77a","defaultUrl":"https://github-action-6e77a.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-22T08:42:03.436Z] Checked if tokens are valid: true, expires at: 1745312903945
+[debug] [2025-04-22T08:42:03.436Z] Checked if tokens are valid: true, expires at: 1745312903945
+[debug] [2025-04-22T08:42:03.436Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/github-action-6e77a/webApps/-/config [none]
